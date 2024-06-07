@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+  <remote name="clo" fetch="https://git.codelinaro.org" review="codelinaro.org"/>
+  <default remote="clo" revision="refs/heads/LE.QCQIM.1.0" sync-j="8"/>
+  <project name="clo/le/meta-qti-qim-product-sdk" path="layers/meta-qti-qim-product-sdk" revision="a6f7091cc12378825178ba0666f70a049c75f2d9" upstream="refs/heads/meta-qc-qim-product.sdk.1.0.r1-rel"/>
+</manifest>
