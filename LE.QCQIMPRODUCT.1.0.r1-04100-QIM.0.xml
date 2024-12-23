@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+  <remote name="clo" fetch="https://git.codelinaro.org" review="codelinaro.org"/>
+  <default remote="clo" revision="refs/heads/LE.QCQIM.1.0" sync-j="8"/>
+  <project name="clo/le/meta-qcom-ml" path="layers/meta-qti-ml" revision="eabb10093fbcb457a23c98988fb531bd566f2bea" upstream="refs/heads/iot-ml-qc.lnx.1.0.r2-rel"/>
+  <project name="clo/le/meta-qti-gst" path="layers/meta-qti-gst" revision="a4eea711214340f6b82412c971beca3d68adc551" upstream="refs/heads/imsdk.lnx.2.0.0.r2-rel"/>
+  <project name="clo/le/meta-qti-qim-product-sdk" path="layers/meta-qti-qim-product-sdk" revision="7db2f286fbd521a8ec9e2b2161759e35c8b8f5b5" upstream="refs/heads/meta-qc-qim-product.sdk.1.0.r1-rel"/>
+  <project name="clo/le/platform/vendor/qcom-opensource/gst-plugins-qti-oss" path="sources/gst-plugins-qti-oss" revision="49256b26148d10257959b2b8d55879f72888cb0f" upstream="refs/heads/imsdk.lnx.2.0.0.r2-rel"/>
+</manifest>
