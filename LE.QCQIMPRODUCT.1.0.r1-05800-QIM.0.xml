@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+  <remote fetch="https://git.codelinaro.org/clo/le" name="clo-le"/>
+  <default remote="clo-le" revision="dummy_revision" sync-c="true" sync-tags="false"/>
+  <project remote="clo-le" name="meta-qcom-ml" path="layers/meta-qti-ml" revision="9a1cb31228546473d896f238c9e6b842ef4d9316" upstream="refs/heads/iot-ml-qc.lnx.1.0.r2-rel"/>
+  <project remote="clo-le" name="meta-qti-gst" path="layers/meta-qti-gst" revision="79842d43db2836d4f3bf897b2353e87b7dfe4671" upstream="refs/heads/imsdk.lnx.2.0.0.r2-rel"/>
+  <project remote="clo-le" name="meta-qti-qim-product-sdk" path="layers/meta-qti-qim-product-sdk" revision="494cd5189eddd30858e4cb336fc87b08af783440" upstream="refs/heads/meta-qc-qim-product.sdk.1.0.r1-rel"/>
+  <project remote="clo-le" name="platform/vendor/qcom-opensource/gst-plugins-qti-oss" path="sources/gst-plugins-qti-oss" revision="1ab026b894c608e8deeabaa959c113d6eceeb2de" upstream="refs/heads/imsdk.lnx.2.0.0.r2-rel"/>
+  <project remote="clo-le" name="sdk-tools" path="sources/sdk-tools" revision="fae0cacaaa2a29c75ee43c9b9cfae2c64a6c2a0b" upstream="refs/heads/imsdk-tools.lnx.1.0.r1-rel"/>
+  <project remote="clo-le" name="solutions-microservices" path="sources/solutions-microservices" revision="50ec3bdb8eeda9532f701f44416d03964b76c579" upstream="refs/heads/iot-solutions.lnx.1.0.r1-rel"/>
+</manifest>
